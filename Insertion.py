@@ -11,7 +11,7 @@ def insertion_sort(arr):
             j -= 1
 
         # place key at correct position
-        arr[j + 1] = key
+        arr[j + 1] = key 
 
     return arr
 

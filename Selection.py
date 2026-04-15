@@ -17,4 +17,4 @@ def selection_sort(arr):
 
 # Example
 arr = [8, 7, 1, 5, 3, 2, 9] 
-print(selection_sort(arr))
+print(selection_sort(arr))  
