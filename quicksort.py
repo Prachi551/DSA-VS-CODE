@@ -8,11 +8,12 @@ def quick_sort(arr, low, high):
         quick_sort(arr, pi + 1, high)
 
 
-def partition(arr, low, high):
+def partition(arr, low, high): 
     pivot = arr[high]  # choose last element as pivot
     i = low - 1  # index of smaller element
 
-    for j in range(low, high):
+
+    for j in range(low, high): 
         if arr[j] < pivot:
             i += 1
             arr[i], arr[j] = arr[j], arr[i]  # swap
